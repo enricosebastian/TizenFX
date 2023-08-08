@@ -28,7 +28,7 @@ namespace Tizen.Applications.EventManager
     ///     /// ...
     ///     Bundle bundle = new Bundle();
     ///     bundle.AddItem("key", "value");
-    ///     ApplicationEventManager.Publish("event.org.example.helloworld.event, bundle);
+    ///     ApplicationEventManager.Publish("event.org.example.helloworld.event", bundle);
     /// }
     /// ]]></code>
     /// </example>
